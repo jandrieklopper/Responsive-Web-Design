@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #3498db;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+fieldset {
+  padding: 16px 16px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+select,
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+    color: #2980b9;
+    border: 1px solid #2980b9; 
+}
+
+/* Styling for radio and checkboxes */
+fieldset {
+    margin-bottom: 16px;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 0.5rem 0 0;
+}
+
+#comments {
+    margin-bottom: 16px;
+}
+
+#dropdown {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    form {
+        padding: 16px;
+    }
+
+    label,
+    input,
+    select,
+    textarea {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
